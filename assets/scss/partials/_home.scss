@@ -1,0 +1,64 @@
+.banner{
+    display:block;
+    height:300px;
+    line-height:200px;
+    overflow:hidden;
+    img{
+        position: relative;
+        margin: -50% auto;/* virtualy height needed turn don to zero */
+        width: 100%;
+        height:auto;
+        vertical-align:middle;
+    }
+}
+
+
+.main-div {
+    max-height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: $background-secondary;
+    img {
+        max-height: max-content;
+        max-width: 50%;
+    }
+    p{
+        padding: 10px 30px;
+    }
+}
+
+.main-adds {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    .services {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        text-align: center;
+        width: fit-content;
+        .service {
+            p {
+                font-size: smaller;
+                margin: 0 10px;
+            }
+        }
+    }
+    .horaires {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        text-align: center;
+        width: fit-content;
+        .horaire {
+            p {
+                font-size: smaller;
+                margin: 0 10px;
+            }
+        }
+    }
+}

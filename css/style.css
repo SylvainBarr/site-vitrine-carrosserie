@@ -5,14 +5,17 @@ body, HTML {
   padding: 0;
   font-family: "Roboto", sans-serif;
   color: lightgrey;
-}
-
-main {
   background-color: rgb(31, 31, 31);
 }
 
 p {
   margin: 0;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 20px 30px;
+  color: white;
 }
 
 header {
@@ -47,7 +50,69 @@ header ul li a {
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(19, 19, 19);
+  min-height: 100px;
+  margin-top: 20px;
+}
+
+.banner {
+  display: block;
+  height: 300px;
+  line-height: 200px;
+  overflow: hidden;
+}
+.banner img {
+  position: relative;
+  margin: -50% auto; /* virtualy height needed turn don to zero */
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.main-div {
+  max-height: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(19, 19, 19);
+}
+.main-div img {
+  max-height: max-content;
+  max-width: 50%;
+}
+.main-div p {
+  padding: 10px 30px;
+}
+
+.main-adds {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-adds .services {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  width: fit-content;
+}
+.main-adds .services .service p {
+  font-size: smaller;
+  margin: 0 10px;
+}
+.main-adds .horaires {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  width: fit-content;
+}
+.main-adds .horaires .horaire p {
+  font-size: smaller;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

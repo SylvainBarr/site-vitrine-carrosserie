@@ -3,10 +3,13 @@ body, HTML {
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: $font-main-color;
-}
-main {
     background-color: $background-main;
 }
 p {
     margin: 0;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 20px 30px;
+    color: $font-title;
 }
