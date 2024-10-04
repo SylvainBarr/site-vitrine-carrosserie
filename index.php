@@ -8,6 +8,8 @@ if(!empty($_GET['page'])){
         require_once('view/PrestationsView.php');
     }elseif($_GET['page'] == 'contact'){
         require_once('view/ContactView.php');
+    }elseif($_GET['page'] == 'mentions-legales'){
+        require_once('view/MentionsView.php');
     }else{
         require_once('view/HomeView.php');
     }

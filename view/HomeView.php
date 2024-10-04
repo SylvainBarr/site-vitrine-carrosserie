@@ -4,7 +4,7 @@
 <section class="main-description">
     <div class="main-div">
         <div>
-            <h2>Carrosserie Barrellon</h2>
+            <h2>Carrosserie</h2>
             <p>Situé entre Saint-Étienne et Saint-Priest, notre garage automobile vous propose tous les travaux de carroserie. <br>
                 Que ce soit le débosselage, le passage au marbre, la peinture, la rénovation des optiques ou le changement de pare-brise, laissez-nous vous montrer notre savoir-faire pour la remise en état de votre véhicule. <br>
                 A l'écoute de vos besoin, nous réalisons tous les travax de carrosserie avec sérieux et professionnalisme en garantissant une qualité de travail irréprochable.
@@ -17,42 +17,19 @@
     <h3>Nos services</h3>
     <div class="services">
         <div class="service">
-            <h4>Devis gratuits</h4>
-        </div>
-        <div class="service">
-            <h4>Facilités de paiement</h4>
+            <h4><ion-icon name="logo-euro"></ion-icon> Devis gratuits et facilités de paiement</h4>
             <p>Possibilités de paiement en plusieurs échéances</p>
         </div>
         <div class="service">
-            <h4>Certifications et agréments</h4>
+            <h4><ion-icon name="car-sport-outline"></ion-icon> Véhicule de courtoisie</h4>
+            <p>Prêt possible d'un véhicule le temps de la réparation</p>
+        </div>
+        <div class="service">
+            <h4><ion-icon name="newspaper-outline"></ion-icon> Certifications et agréments</h4>
             <p>Agréé par plusieurs compagnies d'assurances</p>
         </div>
     </div>
-    <h3>Horaires</h3>
-    <div class="horaires">
-        <div class="horaire">
-            <h4>lundi</h4>
-            <p>8h/12h - 13h30/18h</p>
-        </div>
-        <div class="horaire">
-            <h4>mardi</h4>
-            <p>8h/12h - 13h30/18h</p>
-        </div>
-        <div class="horaire">
-            <h4>mercredi</h4>
-            <p>8h/12h - 13h30/18h</p>
-        </div>
-        <div class="horaire">
-            <h4>jeudi</h4>
-            <p>8h/12h - 13h30/18h</p>
-        </div>
-        <div class="horaire">
-            <h4>vendredi</h4>
-            <p>8h/12h - 13h30/18h</p>
-        </div>
-        <div class="horaire">
-            <h4>samedi</h4>
-            <p>8h/12h</p>
-        </div>
-    </div>
+    <hr>
+    <h3 class="horaires"><ion-icon name="time-outline"></ion-icon> Horaires d'ouverture</h3>
+    <p>Lundi au vendredi de 8h à 12h et de 13h30 à 18h</p>
 </section>

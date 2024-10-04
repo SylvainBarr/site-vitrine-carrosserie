@@ -15,7 +15,7 @@ p {
 h2, h3, h4 {
   margin: 0;
   padding: 20px 30px;
-  color: white;
+  color: rgb(240, 224, 0);
 }
 
 header {
@@ -48,11 +48,31 @@ header ul li a {
   text-decoration: none;
   color: rgb(27, 27, 27);
 }
+header ul li a:hover {
+  color: rgb(131, 131, 131);
+}
 
 footer {
   background-color: rgb(19, 19, 19);
   min-height: 100px;
   margin-top: 20px;
+  text-align: center;
+}
+footer .copy {
+  line-height: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: lightgrey;
+}
+footer a:hover {
+  color: grey;
+}
+footer .contacts {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 30%;
 }
 
 .banner {
@@ -70,7 +90,7 @@ footer {
 }
 
 .main-div {
-  max-height: 400px;
+  max-height: 500px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -92,27 +112,41 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.main-adds ion-icon {
+  border: 1px solid;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 3px;
+  font-size: 16px;
+}
+.main-adds h3, .main-adds h4 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.main-adds h4 {
+  color: lightgrey;
+}
 .main-adds .services {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  width: fit-content;
+  width: 80%;
+}
+.main-adds .services .service {
+  width: 30%;
 }
 .main-adds .services .service p {
   font-size: smaller;
   margin: 0 10px;
 }
-.main-adds .horaires {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  text-align: center;
-  width: fit-content;
+.main-adds hr {
+  width: 30%;
+  margin-top: 30px;
 }
-.main-adds .horaires .horaire p {
-  font-size: smaller;
-  margin: 0 10px;
+.main-adds .horaires {
+  color: lightgrey;
 }
 
 /*# sourceMappingURL=style.css.map */
