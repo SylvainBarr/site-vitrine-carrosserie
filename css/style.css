@@ -73,6 +73,7 @@ footer .contacts {
   flex-flow: row nowrap;
   justify-content: space-around;
   width: 30%;
+  margin: 0 auto 10px auto;
 }
 
 .banner {
