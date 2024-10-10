@@ -1,5 +1,5 @@
 <section class="banner">
-    <img src="assets/img/voitures-alignées.jpg" alt="plusieurs voitures alignées">
+    <!-- <img src="assets/img/voitures-alignées.jpg" alt="plusieurs voitures alignées"> -->
 </section>
 <section class="main-description">
     <div class="main-div">

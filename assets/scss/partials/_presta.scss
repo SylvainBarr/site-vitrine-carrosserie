@@ -1,0 +1,42 @@
+#prestations-banner {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%);
+    background-image: url('../assets/img/polissage-auto.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#prestations {
+    width: 100%;
+    padding: 30px 30px 50px 30px;
+    background-color: $background-secondary;
+    text-align: center;
+    h2 {
+        margin-bottom: 20px;
+    }
+    p {
+        margin: 20px 30px;
+    }
+    li {
+        text-align: left;
+        list-style-type: circle;
+    }
+}
+
+#cars {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    img {
+        height: 500px;
+    }
+}
+
+.prestations-div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}

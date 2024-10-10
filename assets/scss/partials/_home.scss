@@ -1,17 +1,25 @@
-.banner{
-    display:block;
-    height:300px;
-    line-height:200px;
-    overflow:hidden;
-    img{
-        position: relative;
-        margin: -50% auto;/* virtualy height needed turn don to zero */
-        width: 100%;
-        height:auto;
-        vertical-align:middle;
-    }
-}
+// .banner{
+//     display:block;
+//     height:300px;
+//     line-height:200px;
+//     overflow:hidden;
+//     img{
+//         position: relative;
+//         margin: -50% auto;/* virtualy height needed turn don to zero */
+//         width: 100%;
+//         height:auto;
+//         vertical-align:middle;
+//     }
+// }
 
+.banner {
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    background-image: url('../assets/img/voitures-alignées.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .main-div {
     max-height: 500px;
