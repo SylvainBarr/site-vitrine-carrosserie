@@ -176,7 +176,7 @@ footer .contacts {
   justify-content: space-evenly;
 }
 #cars img {
-  height: 500px;
+  max-height: 500px;
 }
 
 #prestations-banner {
@@ -222,6 +222,15 @@ footer .contacts {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 1400px) {
+  #cars {
+    flex-direction: column;
+    width: fit-content;
+  }
+  img {
+    max-width: 100%;
+  }
+}
 #contact {
   display: flex;
   flex-flow: column nowrap;
