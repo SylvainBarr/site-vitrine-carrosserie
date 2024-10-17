@@ -4,7 +4,7 @@
                 <h4>Nous contacter</h4>
                 <div class="contacts">
                     <p><ion-icon name="home-outline"></ion-icon> 28 rue Tartempion <br>&nbsp; 42000 Saint-Étienne</p>
-                    <a href="mailto:contact@carroserie.com"><ion-icon name="at-outline"></ion-icon> contact@carroserie.com</a>
+                    <a href="mailto:contact@carroserie.com"><ion-icon name="at-outline"></ion-icon> contact@carrosserie.com</a>
                     <p><ion-icon name="call-outline"></ion-icon> 04 77 00 00 00</p>
                 </div>
             </div>
